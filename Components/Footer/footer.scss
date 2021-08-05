@@ -1,0 +1,38 @@
+footer {
+    background: #031437;
+    padding-top: 50px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #fff;
+    width: 100%;
+  
+    .links {
+      display: flex;
+      flex-direction: column;
+  
+      h3 {
+        font-size: 1rem;
+        font-weight: 700;
+        margin-bottom: 20px;
+        color: #4d94ea;
+      }
+  
+      a {
+        text-decoration: none;
+        padding-bottom: 10px;
+        color: #fff;
+      }
+    }
+  
+    .copy {
+      padding: 5px 0;
+  
+      p {
+        text-align: center;
+        font-size: .8rem;
+        padding-top: 20px;
+        margin-bottom: 0;
+      }
+    }
+  }

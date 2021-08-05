@@ -1,0 +1,85 @@
+.featured {
+    padding-bottom: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+  
+    h1 {
+      font-size: 2.5rem;
+      text-align: center;
+      padding-bottom: 100px;
+    }
+  
+    .card {
+      padding: 30px;
+      margin-bottom: 20px;
+  
+      a {
+        text-decoration: none;
+        color: black;
+      }
+  
+      img {
+        border-radius: 20px;
+      }
+  
+      .status {
+        font-size: 0.7rem;
+        position: absolute;
+        background: white;
+        padding: 10px;
+        margin-top: 10px;
+        margin-left: 10px;
+        border-radius: 20px;
+        color: green;
+      }
+  
+      .card-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+  
+        .top {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+  
+          .fa-heart {
+            margin-right: 10px;
+          }
+  
+          .price {
+            font-size: 1.3rem;
+            color: #4d94ea;
+            font-weight: 700;
+          }
+        }
+  
+        .middle{
+            margin: 20px 0;
+            .address {
+                padding-bottom: 10px;
+                margin-bottom: 0;
+              }
+        }
+  
+        .bottom {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+
+          span {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+          }
+  
+          .fas {
+            padding-right: 10px;
+          }
+        }
+      }
+    }
+  }

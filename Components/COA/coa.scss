@@ -1,0 +1,42 @@
+.next {
+	padding: 100px 20px;
+	.info {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		padding-bottom: 20px;
+		h2 {
+			text-align: left;
+			font-size: 4rem;
+			text-transform: uppercase;
+			font-weight: 700;
+		}
+		h2.blue {
+			color: #4d94ea;
+		}
+		p.top {
+			padding-top: 30px;
+			padding-bottom: 20px;
+		}
+		p {
+			line-height: 1.5;
+			font-size: 1rem;
+			font-weight: 300;
+		}
+	}
+    .side-pic {
+        img {
+            max-height: 800px;
+            // height: 100%;
+            // width: 100%;
+            // object-fit: cover;
+            // object-position: center;
+        }
+    }
+    .btn-inner {
+        margin-top: 20px;
+        width: 200px;
+        padding: 10px 20px;
+        margin-right: auto;
+    }
+}

@@ -1,0 +1,47 @@
+.hero {
+	width: 100%;
+	height: 100vh;
+	background: url(../../public/bg-hero.jpg);
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-position: center;
+	background-size: cover;
+	z-index: 1;
+	padding: 20px;
+	.title {
+		z-index: 6;
+	}
+	h1 {
+		font-size: 4rem;
+		color: #ffffff;
+		padding-bottom: 2rem;
+		span {
+			color: #4d94ea;
+			font-family: 'Playfair Display', serif;
+		}
+	}
+	.overlay {
+		width: 100%;
+		height: 100%;
+		background: rgba(0, 0, 0, .5);
+		z-index: 4;
+		position: absolute;
+	}
+	form {
+		z-index: 5;
+		width: 70%;
+	}
+}
+.btn-outline-success {
+	border-color: #4d94ea;
+	color: #ffffff;
+	background-color: #4d94ea;
+	&:hover {
+		border-color: #4d94ea;
+		color: #031437;
+		background-color: #ffffff;
+	}
+}
