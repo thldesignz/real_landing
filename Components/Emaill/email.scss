@@ -1,0 +1,54 @@
+.emailc{
+        height: 410px;
+        background: url(../../public/bdrpp.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 20px;
+    .email{
+        // width: 70%;
+        background: rgba(255,255,255, 0.9);
+        backdrop-filter: blur(20px);
+        padding: 60px 40px;
+        
+        &__info{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .form-group{
+                display: flex;
+                flex-direction: row;
+                width: 100%;
+                padding: 20px 0;
+                input{
+                    border-color: #4d94ea;
+                    border-radius: 0;
+                }
+                .btn{
+                    color: white;
+                    background: #4d94ea;
+                    padding: 10px 20px;
+                    border-radius: 0;
+                }
+            }
+            &-title{
+                font-weight: 800;
+                font-size: 1.5rem;
+                padding-bottom: 20px;
+            }
+            &-coa{
+                font-size: 1rem;
+                font-weight: 400;
+            }
+            &-fine{
+                font-size: .8rem;
+                color: #737883;
+            }
+        }
+    }
+}
